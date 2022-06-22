@@ -1,0 +1,19 @@
+@import url('./styles/fonts.css');
+
+body {
+  font-family: Cairo;
+}
+.ant-input:hover,
+.ant-input:focus,
+input:hover,
+.ant-select:hover,
+.ant-checkbox-wrapper:hover,
+.ant-checkbox-wrapper:focus,
+input:focus {
+  border-color: #8c03f9 !important;
+  box-shadow: none;
+}
+
+.ant-input-password{
+  width: 331px !important;
+}

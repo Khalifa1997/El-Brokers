@@ -1,0 +1,27 @@
+.ant-input:focus {
+  border-color: #57a8e9;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+}
+
+.ant-btn:focus {
+  border-color: #57a8e9;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+}
+
+.ant-input-password {
+  width: 331px !important;
+  height: 43px;
+  border-radius: 27px;
+  border: 1px solid #e4e4e4;
+  background-color: #ffffff;
+  padding: 0 16px;
+  margin-top: 5px;
+  color: #cfcbcb;
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 400;
+}

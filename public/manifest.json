@@ -1,0 +1,15 @@
+{
+  "short_name": "ElBrokers Dashboard",
+  "name": "ElBrokers Dashboard",
+  "icons": [
+    {
+      "src": "./app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#8C03F9",
+  "background_color": "#ffffff"
+}
