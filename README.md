@@ -1,159 +1,41 @@
-[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
-[![npm package][npm-coreui-badge]][npm-coreui]
-[![NPM downloads][npm-coreui-download]][npm-coreui]  
-[![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)
-[![npm package][npm-coreui-react-badge]][npm-coreui-react]
-[![NPM downloads][npm-coreui-react-download]][npm-coreui-react]  
-[![npm next][npm-next]][npm]
 
-[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
-[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
-[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
-[npm-coreui-react]: https://www.npmjs.com/package/@coreui/react
-[npm-coreui-react-badge]: https://img.shields.io/npm/v/@coreui/react.png?style=flat-square
-[npm-coreui-react-download]: https://img.shields.io/npm/dm/@coreui/react.svg?style=flat-square
-[npm-next]: https://img.shields.io/npm/v/@coreui/react/next.png?style=flat-square
-[npm]: https://www.npmjs.com/package/@coreui/react
+<p  align="center">
+<a href="https://img.shields.io/github/followers/Khalifa1997?style=social"><img src="https://img.shields.io/github/followers/Khalifa1997?style=social"/></a>
+</p>
+<p align="center" text-align: "justify" >
+<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+<img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white">
+<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+</p>
 
-# CoreUI Pro v3 React Admin Template
+# El-Brokers Admin Dashboard
+A dashboard to view the sales and the users of a brokers company 
+## Demo Link
+View project [here](https://elegant-maamoul-970d56.netlify.app/dashboard)
+## Table of contents
+* [Tech Stack](#tech-stack)
+* [Screenshots](#screenshots)
+* [Installation and Setup Instructions](#installation-and-setup-instructions)
 
-CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
+## Tech Stack
 
-## Table of Contents
+#### Frameworks
+`React`, `Redux`, `CoreUI` and `Chart.js`
 
-* [Versions](#versions)
-* [CoreUI Pro](#coreui-pro)
-* [Installation](#installation)
-* [Basic usage](#create-react-app)
-* [What's included](#whats-included)
-* [Documentation](#documentation)
-* [Versioning](#versioning)
-* [Creators](#creators)
-* [Community](#community)
-* [Copyright and License](#copyright-and-license)
-
-## Versions
-
-**Only customers with [Membership Plan](https://coreui.io/pro/#buy) have access to private github repositories.**
-
-* [CoreUI Pro Bootstrap Admin Template](https://github.com/coreui/coreui-pro-bootstrap-admin-template)
-* [CoreUI Pro Angular 2+ Admin Template](https://github.com/coreui/coreui-pro-angular-admin-template)
-* [CoreUI Pro React.js Admin Template](https://github.com/coreui/coreui-pro-react-admin-template)
-* [CoreUI Pro Vue.js Admin Template](https://github.com/coreui/coreui-pro-vue-admin-template)
+## Screenshots
+![Dashboard](https://user-images.githubusercontent.com/26578518/184541456-9beb2be4-7f60-44bd-b4a3-c1ea5d96d4dc.PNG)
+![Users](https://user-images.githubusercontent.com/26578518/184541460-f72d2474-0f16-41cd-8f82-55849e5b75d2.PNG)
+![Subscribtions](https://user-images.githubusercontent.com/26578518/184541462-c235ef31-6c86-4f2e-8771-73279366a9b1.PNG)
 
 
-## CoreUI Pro
+## Installation and Setup Instructions
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-* 💪  [CoreUI v3 Pro Bootstrap Admin Template](https://coreui.io/pro/)
-* 💪  [CoreUI v2 Pro Angular Admin Template](https://coreui.io/pro/angular)
-* 💪  [CoreUI v3 Pro React Admin Template](https://coreui.io/pro/react)
-* 💪  [CoreUI v3 Pro Vue Admin Template](https://coreui.io/pro/vue)
+Installation:
 
-## Installation
+`npm install`
 
-### Clone repo
+To Start Server:
 
-**Only customers with [Membership Plan](https://coreui.io/pro/#buy) have access to private github repository.**
-
-``` bash
-# clone the repo
-$ git clone https://github.com/coreui/coreui-pro-react-admin-template.git my-project
-
-# go into app's directory
-$ cd my-project
-
-# install app's dependencies
-$ npm install
-```
-
-### Copy and Paste
-
-Copy all your files to your project folder and then,
-
-``` bash
-# go into app's directory
-$ cd my-project
-
-# install app's dependencies
-$ npm install
-```
-
-## Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-
-see also:
-[CRA docs](https://create-react-app.dev/docs/getting-started)
-
-### Basic usage
-
-``` bash
-# dev server  with hot reload at http://localhost:3000
-$ npm start
-```
-
-Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
-
-### Build
-
-Run `build` to build the project. The build artifacts will be stored in the `build/` directory.
-
-```bash
-# build for production with minification
-$ npm run build
-```
-
-## What's included
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
-
-```
-CoreUI-React#v3.0.0
-├── public/          #static files
-│   ├── assets/      #assets
-│   └── index.html   #html template
-│
-├── src/             #project root
-│   ├── assets/  
-│   ├── containers/  #container source
-│   ├── scss/        #user scss/css source
-│   ├── views/       #views source
-│   ├── App.js
-│   ├── App.test.js
-│   ├── index.js
-│   ├── _nav.js      #sidebar config
-│   ├── routes.js    #routes config
-│   └── store.js     #app store
-│
-└── package.json
-```
-
-## Documentation
-
-The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/)
-
-
-## Versioning
-
-For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Pro Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
-
-See [the Releases section of our project](https://github.com/coreui/coreui-pro-react-admin-template/releases) for changelogs for each release version.
-
-## Creators
-
-***Łukasz Holeczek***
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/coreui>
-
-**CoreUI Team**
-* <https://github.com/orgs/coreui/people>
-
-## Community
-
-Get updates on CoreUI's development and chat with the project maintainers and community members.
-
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
-
-
-## Copyright and License
-copyright 2020 creativeLabs Łukasz Holeczek 
+`npm start`
